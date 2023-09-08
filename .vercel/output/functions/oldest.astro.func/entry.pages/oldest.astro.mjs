@@ -1,7 +1,7 @@
 import { renderers } from '../renderers.mjs';
 import { onRequest } from '../_empty-middleware.mjs';
-import { c as createExports, a as adapter } from '../chunks/entrypoint_bc1a35e8.mjs';
-import { manifest } from '../manifest_39ce6013.mjs';
+import { c as createExports, a as adapter } from '../chunks/entrypoint_d1741a4f.mjs';
+import { manifest } from '../manifest_616d37a8.mjs';
 import '../chunks/pages/image-endpoint_110ddc0c.mjs';
 import '../chunks/astro_f5dab1cf.mjs';
 import 'node:fs';
@@ -36,7 +36,7 @@ import 'node:path';
 import 'node:url';
 import 'node:fs/promises';
 
-const page = () => import('../chunks/prerender_ff4a6969.mjs').then(n => n.o);
+const page = () => import('../chunks/prerender_2410d860.mjs').then(n => n.o);
 
 const pageModule = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 	__proto__: null,
