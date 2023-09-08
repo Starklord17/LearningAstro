@@ -7,14 +7,14 @@ const launches = await getLatestLaunches();
 
 <section class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
   {
-    launches?.map((launch) => (
+    launches?.map(({id , name, links, details, flight_number: flightNumber, success}) => (
       <CardLaunch
-        id={launch.id}
-        name={launch.name}
-        details={launch.details || "No details available"}
-        success={launch.success}
-        flightNumber={launch.flight_number}
-        img={launch.links.patch.small}
+        id={id}
+        name={name}
+        details={details || "No details available"}
+        success={success}
+        flightNumber={flightNumber}
+        img={links.patch.small}
       />
     ))
   }
