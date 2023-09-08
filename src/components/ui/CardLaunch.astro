@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { id, name, details, success, flightNumber, img } = Astro.props;
-const succesText = success ? "Success" : "Failure";
+const launchStatus = success ? "Success" : "Failure";
 ---
 
 <a
@@ -30,7 +30,7 @@ const succesText = success ? "Success" : "Failure";
         },
       ]}
     >
-      {succesText}
+      {launchStatus}
     </span>
 
     <h2 class="my-2 text-xl font-bold tracking-tight" transition:name="namelaunch">
