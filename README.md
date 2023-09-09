@@ -59,5 +59,7 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
+[View Transitions](https://docs.astro.build/es/guides/view-transitions/)
+
 ---
 
